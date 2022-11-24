@@ -48,6 +48,39 @@
 *.phtml linguist-detectable=true
 *.phtml linguist-documentation=false
 *.phtml linguist-language=PHP
+# Hack source file
+*.hack linguist-detectable=true
+*.hack linguist-documentation=false
+*.hack linguist-language=Hack
+*.hck linguist-detectable=true
+*.hck linguist-documentation=false
+*.hck linguist-language=Hack
+*.hh linguist-detectable=true
+*.hh linguist-documentation=false
+*.hh linguist-language=Hack
+# Jakarta Server Pages source file
+# GitHub doesn't recognize the new name, so I will use its old name here for now
+*.jsp linguist-detectable=true
+*.jsp linguist-documentation=false
+*.jsp linguist-language=Java-Server-Pages
+*.jspx linguist-detectable=true
+*.jspx linguist-documentation=false
+*.jspx linguist-language=Java-Server-Pages
+*.jspf linguist-detectable=true
+*.jspf linguist-documentation=false
+*.jspf linguist-language=Java-Server-Pages
+# Classic ASP source file
+*.asp linguist-detectable=true
+*.asp linguist-documentation=false
+*.asp linguist-language=Classic-ASP
+# Twig source file
+*.twig linguist-detectable=true
+*.twig linguist-documentation=false
+*.twig linguist-language=Twig
+# Smarty source file
+*.tpl linguist-detectable=true
+*.tpl linguist-documentation=false
+*.tpl linguist-language=Smarty
 # JSON (JavaScript Object Notation) source file
 *.json linguist-detectable=false
 *.json linguist-documentation=false
@@ -186,8 +219,8 @@
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 3 (2022, Wednesday, November 25th at 10:44 pm PST)
-# Line count (including blank lines and compiler line): 194
+# File type: gitattributes file (*.gitattributes)
+# File version: 4 (2022, Thursday, November 24th at 2:31 pm PST)
+# Line count (including blank lines and compiler line): 227
 
 # End of script
